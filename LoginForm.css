@@ -1,0 +1,53 @@
+/* Styles for the container of the login form */
+.login-form {
+  display: flex; /* Uses flexbox layout to align child elements */
+  flex-direction: column; /* Arranges child elements in a vertical column */
+  align-items: center; /* Centers child elements horizontally within the container */
+  border: 1px solid #ccc; /* Adds a light gray border around the container */
+  padding: 20px; /* Adds space inside the border, around the content */
+  border-radius: 5px; /* Rounds the corners of the border */
+  background-color: #f9f9f9; /* Sets a light gray background color for the container */
+}
+
+/* Styles for the title of the login form */
+.login-title {
+  border: 1px solid #037df0; /* Adds a blue border around the title */
+  padding: 10px; /* Adds space inside the border, around the text */
+  border-radius: 5px; /* Rounds the corners of the border */
+  margin-bottom: 20px; /* Adds space below the title */
+}
+
+/* Styles for each div element within the form */
+form div {
+  margin-bottom: 15px; /* Adds space below each form element container */
+}
+
+/* Styles for form labels */
+form label {
+  display: block; /* Ensures that labels are block elements, taking full width */
+  margin-bottom: 5px; /* Adds space below the label */
+}
+
+/* Styles for form input fields */
+form input {
+  padding: 8px; /* Adds space inside the input fields for better readability */
+  font-size: 16px; /* Sets the font size of the input text */
+  border: 1px solid #ddd; /* Adds a light gray border around the input fields */
+  border-radius: 4px; /* Rounds the corners of the input fields */
+}
+
+/* Styles for the submit button */
+button {
+  padding: 10px 20px; /* Adds space inside the button (top-bottom and left-right) */
+  font-size: 16px; /* Sets the font size of the button text */
+  border: none; /* Removes the default border of the button */
+  border-radius: 4px; /* Rounds the corners of the button */
+  background-color: #007bff; /* Sets a blue background color for the button */
+  color: white; /* Sets the text color of the button to white */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the button */
+}
+
+/* Styles for the button when hovered over */
+button:hover {
+  background-color: #0056b3; /* Changes the background color to a darker blue on hover */
+}

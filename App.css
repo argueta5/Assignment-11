@@ -1,0 +1,12 @@
+/* Styles for the root container of the application */
+.App {
+  text-align: center; /* Centers the text and inline elements horizontally within the .App container */
+}
+
+/* Styles for the main content area */
+.content {
+  display: flex; /* Uses flexbox layout to align child elements */
+  justify-content: center; /* Centers child elements horizontally within the .content container */
+  align-items: center; /* Centers child elements vertically within the .content container */
+  height: calc(100vh - 50px); /* Sets the height of the .content container to fill the viewport height minus 50 pixels */
+}
